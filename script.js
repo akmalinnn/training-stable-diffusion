@@ -1,4 +1,4 @@
-const apiKey = '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';
+const apiKey = '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';
 
 const maxImages = 4; // Jumlah gambar yang akan dihasilkan untuk setiap prompt
 let selectedImageNumber = null;
@@ -53,7 +53,7 @@ async function generateImages(input) {
 
     try {
       const response = await fetch(
-        'https://api-inference.huggingface.co/models/CiroN2022/high-tech-robotics',
+        "https://api-inference.huggingface.co/models/akmalinn/soto-ayam-bu-karti",
         {
           method: 'POST',
           headers: {
