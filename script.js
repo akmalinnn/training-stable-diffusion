@@ -1,6 +1,6 @@
 const apiKey = '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';
 
-const maxImages = 4;
+const maxImages = 30;
 let selectedImageNumber = null;
 const imageUrls = [];
 
@@ -60,7 +60,7 @@ async function generateImages(input) {
 
     try {
       const response = await fetch(
-        'https://api-inference.huggingface.co/models/akmalinn/surabaya_monument',
+        'https://api-inference.huggingface.co/models/akmalinn/surabaya_monument_3',
         {
           method: 'POST',
           headers: {
