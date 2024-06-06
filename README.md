@@ -11,5 +11,5 @@ example input : suroboyo monument in the snow
 - **Base Model:** [Stable Diffusion](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 - **Training Method:** Using DreamBooth
 - **Dataset:** Images of national monuments in Surabaya
-- 
+- https://huggingface.co/akmalinn/surabaya_monument_3
 more fun https://training-stable-diffusion.vercel.app/
